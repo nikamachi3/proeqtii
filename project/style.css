@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.wrapper{
+    background:blue;
+    background-size: cover;
+    height: 80px;
+}
+.navbar{
+    height:80px;
+    width:100%;
+    background: red;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin:0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 6px 13px;
+    font-family: 'Roboto';
+}
+.navbar ul li a:active,
+.navbar ul li a:hover{
+    background: white;
+    color: red;
+    border-radius: 10px;
+}
+.tbilisi{
+    width: 80px;
+    height: auto;
+    margin-left: 10px;
+    float:left;
+}
+.topnav{
+    text-decoration: none;
+    color: red;
+    font-size:20px;
+}
+.topnav a{
+    text-decoration: none;
+    color: red;
+    font-size:20px;
+    padding: 10px;
+}
+.contact-form{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+form{
+    margin-top: 50px;
+}
+.form-control{
+    width:600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color:black;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+input{
+    height: 50px;
+}
+form .submit{
+    background: orange;
+    border-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+form .submit:hover{
+    background: red;
+    cursor: pointer;
+}
